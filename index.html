@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" placeholder="Search other cities..." class="search-bar" autofocus>
+            <button class="search-btn">&#x1F50D;</button>
+        </div>
+
+        <div class="weather-card">
+            <div class="location"></div>
+            <div class="temp"></div>
+            <div class="condition"></div>
+            <div class="details-grid">
+                <div class="detail-item">
+                    <span class="detail-label">Humidity</span>
+                    <span class="detail-value humidity"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Wind Speed</span>
+                    <span class="detail-value wind"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Feels Like</span>
+                    <span class="detail-value feels-like"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Pressure</span>
+                    <span class="detail-value pressure"></span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label">Visibility</span>
+                    <span class="detail-value visibility"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
